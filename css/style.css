@@ -1,0 +1,49 @@
+body {
+    margin: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+}
+
+hr {
+    display: block;
+    margin: 1em 0em 1em;
+}
+
+table {
+    border-collapse: separate;
+}
+
+th, tr td {
+    border: 1px solid #ccc;
+    padding: 0.5em;
+}
+
+input[type="file"] {
+    padding: 5px;
+}
+
+button {
+    color: #efefef;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    padding: 8px;
+    cursor: pointer;
+}
+
+button, .default {
+    background: #2584f1;
+}
+
+button, .cancel {
+    background: #f50707;
+}
+
+.error {
+    color: #f50707;
+    padding: 0.5em;
+}
+
+.btn-add {
+    display: inline-block;
+    margin-bottom: 0.5em;
+}
